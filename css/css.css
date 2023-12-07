@@ -1,0 +1,105 @@
+@import url(https://fonts.google.com/noto/specimen/Noto+Sans+TC);
+
+.body {
+    font-family: "noto";
+}
+
+.demo {
+    border: 5px solid var(--JPblucolor01);
+    margin: 15px;
+    padding: 15px;
+}
+
+.fw-100 {
+    font-weight: 100;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.fw-900 {
+    font-weight: 900;
+}
+
+/* .demo {
+    border: 2px solid var(--JPblackcolor);
+    margin: 15px;
+    padding: 15px;
+} */
+
+.box01 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid;
+    padding: 15px;
+    margin: 15px;
+}
+
+.box02 {
+    height: 220px;
+    border: 2px solid var(--JPredcolor03);
+    background-color: var(--JPblucolor03);
+    margin: 5px;
+}
+
+.bg-cover {
+    background-position: center center;
+    background-size: cover;
+}
+
+.bg-resize {
+    background-color:black;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+:root {
+    --JPblucolor01: #a2d7dd;
+    --JPblucolor02: #7DB9DE;
+    --JPblucolor03: #2EA9DF;
+    --JPblucolor04: #00A5BF;
+    --JPblucolor05: #48929B;
+    --JPblucolor06: #94a8b0;
+    --JPblucolor07: #044F67;
+    --JPblucolor08: #006C7F;    
+    --JPblucolor09: #003171;
+    --JPblucolor10: #1B294B;
+    --JPredcolor01: #F58F84;
+    --JPredcolor02: #F08F90;
+    --JPredcolor03: #FCC9B9;
+    --JPredcolor04: #F47983;
+    --JPredcolor05: #D05A6E;
+    --JPredcolor06: #F7665A;
+    --JPredcolor07: #CF3A24;
+    --JPredcolor08: #913225;
+    --JPredcolor09: #7E2639;
+    --JPredcolor10: #542D24;
+    --JPyelcolor01: #EFEACC;
+    --JPyelcolor02: #E2BE9F;
+    --JPyelcolor03: #F3C13A;
+    --JPyelcolor04: #E08A1E;
+    --JPyelcolor05: #826B58;
+    --JPyelcolor06: #4C3D30;
+    --JPgrecolor01: #A5BA93;
+    --JPgrecolor02: #A5BA93;
+    --JPgrecolor03: #007B43;
+    --JPgrecolor04: #3D5D42;
+    --JPgrecolor05: #224634;
+    --JPgrecolor06: #203838;
+    --JPblackcolor: #171412;
+    --JPwhitecolor: #ffffff;
+}
